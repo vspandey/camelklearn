@@ -29,5 +29,6 @@ jobs:
 
       - name: terminal output
         run: |
-          ls -lart
+          cd target
+          ls -lart *.jar*
 
